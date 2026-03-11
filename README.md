@@ -2,7 +2,7 @@
 
 **Goals:**
 * Deploy Application Container
-* Basic CBonusonfiguration
+* Basic Configuration
   * Credentials
   * Connections
   * Chat Interface
