@@ -1,0 +1,14 @@
+docker run -d \
+  --name open-webui \
+  --restart unless-stopped \
+  -p 3000:8080 \
+  -v open-webui:/app/backend/data \
+  ghcr.io/open-webui/open-webui:main
+
+
+Meta Llama 3.1 8B Instruct
+http://10.106.14.26:8021/v1
+
+
+Qwen3-VL-8B-Instruct
+http://10.106.15.44:32768/v1
